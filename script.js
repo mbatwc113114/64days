@@ -12,14 +12,14 @@ btn2.onclick = function(){bt2()}
 
 function bt1(){
     tab2.classList.add("false")
-    tab1.classList.add("active")
-    tab2.classList.remove("active")
+    btn1.classList.add("active")
+    btn2.classList.remove("active")
     tab1.classList.remove("false")    
 }
 
 function bt2(){
     tab1.classList.add("false")
-    tab2.classList.add("active")
-    tab1.classList.remove("active")
+    btn2.classList.add("active")
+    btn1.classList.remove("active")
     tab2.classList.remove("false")    
 }

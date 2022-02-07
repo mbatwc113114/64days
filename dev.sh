@@ -1,3 +1,5 @@
 !# /bin/bash
-
-git pull
+while true:
+do
+    git pull
+done

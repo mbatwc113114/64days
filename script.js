@@ -1,25 +1,25 @@
 console.log("hi")
 
-let tab1 = document.getElementById("active")
-let tab2 = document.getElementById("test")
-let btn1 = document.getElementById("active_btn")
-let btn2 = document.getElementById("test_btn")
+let home_tab = document.getElementById("console")
+let add_task_tab = document.getElementById("add_task")
+let console_btn = document.getElementById("console_btn")
+let add_task_btn = document.getElementById("add_task_btn")
 
 
 
-btn1.onclick = function(){bt1()}
-btn2.onclick = function(){bt2()}
+console_btn.onclick = function(){console_page()}
+add_task_btn.onclick = function(){add_task_page()}
 
-function bt1(){
-    tab2.classList.add("false")
-    btn1.classList.add("active")
-    btn2.classList.remove("active")
-    tab1.classList.remove("false")    
+function console_page(){
+    add_task_tab.classList.add("false")
+    console_btn.classList.add("active")
+    add_task_btn.classList.remove("active")
+    home_tab.classList.remove("false")    
 }
 
-function bt2(){
-    tab1.classList.add("false")
-    btn2.classList.add("active")
-    btn1.classList.remove("active")
-    tab2.classList.remove("false")    
+function add_task_page(){
+    home_tab.classList.add("false")
+    add_task_btn.classList.add("active")
+    console_btn.classList.remove("active")
+    add_task_tab.classList.remove("false")    
 }

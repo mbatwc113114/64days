@@ -10,3 +10,11 @@
     display: none;
     visibility: collapse;
 }
+
+.btn_font{
+    size:20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

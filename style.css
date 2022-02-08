@@ -20,5 +20,16 @@
 }
 
 .counter_label{
-    size:40;
+   
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    margin: auto;
+    padding: 9px;
+
+}
+
+.daycount{
+    border-radius: 50%f;
 }

@@ -4,7 +4,7 @@ let home_tab = document.getElementById("console")
 let add_task_tab = document.getElementById("add_task")
 let console_btn = document.getElementById("console_btn")
 let add_task_btn = document.getElementById("add_task_btn")
-
+let dayCount = document.getElementById("dayCount")
 
 
 console_btn.onclick = function(){console_page()}

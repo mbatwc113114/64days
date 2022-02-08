@@ -27,9 +27,16 @@
     text-align: center;
     margin: auto;
     padding: 9px;
-
+    transform: translate(50%,50%);
 }
 
 .daycount{
-    border-radius: 50%f;
+   
+    border-radius: 50%;
+    background-color: lightseagreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    
 }
